@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>D3 force scatter plot: vanilla</title>
+   <meta name="description"
+      content="D3 force scatter plot: vanilla JS">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+   <style>
+      body{
+         font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      #chart{
+         width: 100%; 
+         text-align: center;
+      }
+      .tick text{
+         font-size:13px;
+         text-transform: uppercase;
+         font-family: 'Source Sans Pro', sans-serif;
+      }
+      .x-axis path, .y-axis path{
+         display:none;
+      }
+
+      
+   </style>
+</head>
+
+<body>
+   <div id="chart"></div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"></script>
+   <script src="./data/data.js"></script>
+   <script src="./main.js"></script>
+
+</body>
+
+</html>
