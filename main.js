@@ -175,7 +175,7 @@ gainG.append("text")
     .text(d => Math.round(d.gain * 10) / 10);
 
 const incomeG = legendG.selectAll("g.incomeG")
-    .data(legendData.reverse())
+    .data(legendData)
     .join("g")
     .attr("class", "incomeG");
 
