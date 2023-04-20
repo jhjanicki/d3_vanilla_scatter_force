@@ -4,10 +4,10 @@ let width = 1500 / scaleFactor;
 let height = 1080 / scaleFactor;
 
 const margin = {
-    "top": (0 + 84) / scaleFactor,
+    "top": 84/ scaleFactor,
     "left": (70 + 84) / scaleFactor,
     "bottom": (85 + 84) / scaleFactor,
-    "right": (0 + 84) / scaleFactor
+    "right": 84 / scaleFactor
 }
 
 //prep / clean data
